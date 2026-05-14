@@ -29,7 +29,7 @@
     background: var(--bg);
     color: var(--ink);
     font-family: 'Source Serif 4', Georgia, serif;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.78;
     min-height: 100vh;
   }
@@ -48,9 +48,9 @@
   .page {
     position: relative;
     z-index: 1;
-    max-width: 860px;
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 3rem 2.5rem 5rem;
+    padding: 3rem 3rem 5rem;
   }
 
   /* ── MASTHEAD ── */
@@ -65,7 +65,7 @@
     display: flex;
     justify-content: space-between;
     font-family: 'Courier Prime', monospace;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--ink-3);
@@ -73,7 +73,7 @@
   }
   .masthead-title {
     font-family: 'Playfair Display', Georgia, serif;
-    font-size: 36px;
+    font-size: 46px;
     font-weight: 900;
     letter-spacing: 0.18em;
     text-transform: uppercase;
@@ -81,7 +81,7 @@
   }
   .masthead-sub {
     font-family: 'Courier Prime', monospace;
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: var(--ink-3);
@@ -91,7 +91,7 @@
     display: flex;
     justify-content: space-between;
     font-family: 'Courier Prime', monospace;
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--ink-4);
@@ -109,7 +109,7 @@
   }
   .banner-kicker {
     font-family: 'Courier Prime', monospace;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 0.28em;
     text-transform: uppercase;
     color: var(--accent);
@@ -117,17 +117,17 @@
   }
   .banner h1 {
     font-family: 'Playfair Display', Georgia, serif;
-    font-size: 42px;
+    font-size: 54px;
     font-weight: 900;
     line-height: 1.05;
     color: var(--ink);
     margin-bottom: 0.6rem;
   }
   .banner .deck {
-    font-size: 13.5px;
+    font-size: 17px;
     color: var(--ink-2);
     font-style: italic;
-    max-width: 580px;
+    max-width: 740px;
     margin: 0 auto;
   }
 
@@ -139,7 +139,7 @@
   }
   .section-header .label {
     font-family: 'Courier Prime', monospace;
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0.28em;
     text-transform: uppercase;
     color: var(--accent-2);
@@ -147,14 +147,14 @@
   }
   .section-header h2 {
     font-family: 'Playfair Display', Georgia, serif;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     color: var(--ink);
     line-height: 1.2;
   }
   .section-header h3 {
     font-family: 'Playfair Display', Georgia, serif;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 400;
     font-style: italic;
     color: var(--ink-2);
@@ -168,14 +168,14 @@
   }
   .sub-header .tag {
     font-family: 'Courier Prime', monospace;
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--ink-4);
   }
   .sub-header h3 {
     font-family: 'Playfair Display', Georgia, serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     color: var(--ink);
   }
@@ -186,18 +186,18 @@
 
   .dropcap::first-letter {
     font-family: 'Playfair Display', Georgia, serif;
-    font-size: 62px;
+    font-size: 78px;
     font-weight: 900;
     float: left;
     line-height: 0.78;
-    margin-right: 8px;
+    margin-right: 10px;
     margin-top: 6px;
     color: var(--accent);
   }
 
   .pullquote {
     font-family: 'Playfair Display', Georgia, serif;
-    font-size: 19px;
+    font-size: 24px;
     font-weight: 400;
     font-style: italic;
     text-align: center;
@@ -212,7 +212,7 @@
   /* ── LAYOUT ── */
   .col2 {
     column-count: 2;
-    column-gap: 2rem;
+    column-gap: 2.5rem;
     column-rule: 0.5px solid var(--rule);
   }
   .rule { border: none; border-top: 0.5px solid var(--rule); margin: 1.5rem 0; }
@@ -225,7 +225,7 @@
     margin: 1rem 0;
     font-style: italic;
     color: var(--ink-3);
-    font-size: 13px;
+    font-size: 15px;
     background: var(--bg-2);
   }
 
@@ -237,7 +237,7 @@
   }
   .classified-box .box-label {
     font-family: 'Courier Prime', monospace;
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0.25em;
     text-transform: uppercase;
     color: var(--ink-4);
@@ -245,7 +245,7 @@
     padding-bottom: 0.4rem;
     border-bottom: 0.5px solid var(--rule);
   }
-  .classified-box p { font-size: 13px; margin-bottom: 0.5rem; }
+  .classified-box p { font-size: 15px; margin-bottom: 0.5rem; }
 
   /* ── INTERCEPTS ── */
   .intercept {
@@ -253,7 +253,7 @@
     padding: 0.8rem 1.1rem;
     margin: 0.75rem 0;
     font-style: italic;
-    font-size: 13.5px;
+    font-size: 16px;
     background: var(--bg-3);
     color: var(--ink);
   }
@@ -261,7 +261,7 @@
     display: block;
     font-style: normal;
     font-family: 'Courier Prime', monospace;
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--ink-4);
@@ -277,14 +277,14 @@
   .vaisseau-entry:last-child { border-bottom: none; padding-bottom: 0; }
   .vaisseau-name {
     font-family: 'Playfair Display', Georgia, serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.04em;
     color: var(--ink);
   }
   .vaisseau-class {
     font-family: 'Courier Prime', monospace;
-    font-size: 9px;
+    font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     color: var(--ink-3);
@@ -293,7 +293,7 @@
   .statut {
     display: inline-block;
     font-family: 'Courier Prime', monospace;
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     padding: 2px 9px;
@@ -314,28 +314,28 @@
   }
   .tech-profile dt {
     font-family: 'Courier Prime', monospace;
-    font-size: 9px;
+    font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.15em;
     color: var(--ink-4);
     padding-top: 2px;
   }
-  .tech-profile dd { font-size: 12px; color: var(--ink-2); }
+  .tech-profile dd { font-size: 14px; color: var(--ink-2); }
 
   /* ── PROFIL COMPORTEMENTAL ── */
   .profil-item {
     display: grid;
-    grid-template-columns: 180px 1fr;
+    grid-template-columns: 220px 1fr;
     gap: 4px 1.2rem;
     padding: 0.6rem 0;
     border-bottom: 0.5px solid var(--rule);
-    font-size: 13px;
+    font-size: 15px;
     align-items: start;
   }
   .profil-item:last-child { border-bottom: none; }
   .profil-key {
     font-family: 'Courier Prime', monospace;
-    font-size: 9px;
+    font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.16em;
     color: var(--ink-4);
@@ -351,7 +351,7 @@
     margin: 2rem 0 0;
     text-align: center;
     font-family: 'Courier Prime', monospace;
-    font-size: 11px;
+    font-size: 13px;
     letter-spacing: 0.06em;
     color: var(--ink-3);
     line-height: 1.8;
@@ -375,7 +375,7 @@
   .img-slot .img-caption {
     padding: 0.5rem 0.8rem;
     font-family: 'Courier Prime', monospace;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 0.1em;
     color: var(--ink-4);
     background: var(--bg-2);
@@ -387,7 +387,7 @@
     align-items: center;
     justify-content: center;
     font-family: 'Courier Prime', monospace;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--ink-4);
@@ -414,17 +414,17 @@
     display: flex;
     justify-content: space-between;
     font-family: 'Courier Prime', monospace;
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--ink-4);
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     .page { padding: 1.5rem 1.2rem 3rem; }
     .col2 { column-count: 1; }
-    .banner h1 { font-size: 28px; }
-    .masthead-title { font-size: 24px; }
+    .banner h1 { font-size: 34px; }
+    .masthead-title { font-size: 28px; }
     .profil-item { grid-template-columns: 1fr; gap: 2px; }
     .tech-profile { grid-template-columns: 1fr; }
     .img-right, .img-left { float: none; width: 100%; margin: 1rem 0; }
@@ -443,7 +443,7 @@
   }
   .site-nav a {
     font-family: 'Courier Prime', monospace;
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--ink-3);
@@ -456,8 +456,8 @@
   .site-nav a:hover { color: var(--accent); }
 
   /* offset scroll pour compenser la nav sticky */
-  [id] { scroll-margin-top: 36px; }
+  [id] { scroll-margin-top: 40px; }
 
-  @media (max-width: 600px) {
-    .site-nav a { padding: 0.4rem 0.6rem; font-size: 8px; letter-spacing: 0.12em; }
+  @media (max-width: 700px) {
+    .site-nav a { padding: 0.4rem 0.6rem; font-size: 9px; letter-spacing: 0.12em; }
   }
